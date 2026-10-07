@@ -1,4 +1,11 @@
 {
   "schemaVersion": 1,
-  "entries": []
+  "entries": [
+    {
+      "kind": "app",
+      "id": "session-porter",
+      "repository": "Hzl0929/Hana-Session-Porter",
+      "publisher": "Hzl0929"
+    }
+  ]
 }
