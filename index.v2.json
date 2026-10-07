@@ -2,6 +2,39 @@
   "schemaVersion": 2,
   "sourceId": "official-global",
   "name": "Hana Global Market",
-  "publishedAt": "2026-01-01T00:00:00.000Z",
-  "items": []
+  "publishedAt": "2026-10-07T14:34:05.118Z",
+  "items": [
+    {
+      "kind": "recipe",
+      "id": "hana-coder",
+      "name": "hana-coder",
+      "publisher": "liliMozi",
+      "description": "Hana Coder 开发者配方：用户要看仓库工作树/分支、整理或批量修复 Issue、查看或审阅 PR、打开常用命令面板时使用。按意图直接生成对应卡片：Issue 分组确认/修复汇报、PR 管理、工作树与分支、命令面板。支持刷新后 Agent 补简介、逐项批注、指定 PR 审阅和命令添加；不要求用户知道模板名。",
+      "version": "0.0.0",
+      "permissions": [],
+      "archive": {
+        "url": "https://github.com/liliMozi/hana-coder/releases/download/recipe-2026-10-07.1/recipe-hana-coder-007d582ca47d0b90a4da98674bef3efd7bc0b7fc80558d5a3a4e56c92a110a5b.zip",
+        "sha256": "007d582ca47d0b90a4da98674bef3efd7bc0b7fc80558d5a3a4e56c92a110a5b",
+        "size": 1314439,
+        "format": "zip"
+      },
+      "repository": "https://github.com/liliMozi/hana-coder"
+    },
+    {
+      "kind": "skill",
+      "id": "video-summarizer",
+      "name": "video-summarizer",
+      "publisher": "Swimming Cat",
+      "description": "一键总结视频内容。用户丢一个视频链接，自动提取字幕/转录音频并通过模型整理成结构化摘要。Trigger: 总结这个视频, 帮我整理一下这个视频, 看看这个视频讲了什么, 丢 Bilibili/YouTube 等链接并要求总结视频内容, 视频总结, video summarize, summarize this video. Do NOT trigger: 普通视频生成请求, 与视频内容无关的简单问答, 非视频链接。兼容 DSharness、HanaAgent、workbuddy 等多 agent 框架。",
+      "version": "0.0.0",
+      "permissions": [],
+      "archive": {
+        "url": "https://github.com/youyongdemao/video-summarizer/releases/download/v1.2.0/skill-video-summarizer-b285d7c8537b1cf45ee2c70acfbfb26fe2b9757eea043f353416cad82643ebf0.zip",
+        "sha256": "b285d7c8537b1cf45ee2c70acfbfb26fe2b9757eea043f353416cad82643ebf0",
+        "size": 23285,
+        "format": "zip"
+      },
+      "repository": "https://github.com/youyongdemao/video-summarizer"
+    }
+  ]
 }
